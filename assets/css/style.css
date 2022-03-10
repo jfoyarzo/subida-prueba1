@@ -35,3 +35,11 @@ body {
 #nosotros i {
     margin-top: 20px;
 }
+
+footer {
+    background-color: rgb(23, 163, 184) ;
+}
+
+footer a {
+    color: white;
+}
