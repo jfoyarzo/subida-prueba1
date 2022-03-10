@@ -4,8 +4,27 @@ body {
     background-color: black;
 }
 
+.navbar-brand {
+    margin-left: 7%;
+}
+
+#navegacion { 
+    margin-right: 7%;
+}
+
+.row {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 .card-body {
-    background-color: rgb(23, 163, 184); !important
+    background-color: rgb(23, 163, 184) !important;
+}
+
+.card {
+    height: 450px;
+    width: 17rem;
+    
 }
 
 .fondoicon {
