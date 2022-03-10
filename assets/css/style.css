@@ -7,3 +7,12 @@ body {
 .card-body {
     background-color: rgb(23, 163, 184); !important
 }
+
+.fondoicon {
+    background-color: rgb(23, 163, 184);
+    height: 40px;
+}
+
+#nosotros i {
+    margin-top: 20px;
+}
