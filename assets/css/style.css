@@ -1,13 +1,17 @@
+
+/*Desactiva smooth scroll por defecto integrado en Bootstrap*/
 html {
     scroll-behavior: auto !important;
 }
 
+/*Selección de la tipografía "Raleway" de Google Fonts para todo el 'body' de la página*/
 body {
     font-family: 'Raleway', sans-serif;
     color: white;
     background-color: black;
 }
 
+/*Estilos para dejar la navbar transparente y fija en la parte superior de la pantalla*/
 .navbar {
     background: transparent !important;
     position: fixed;
@@ -15,6 +19,7 @@ body {
     z-index: 99;
 }
 
+/*Ajuste de márgenes de contenido y contenedores*/
 .navbar-brand {
     margin-left: 7%;
 }
@@ -28,25 +33,39 @@ body {
     margin-right: 7%;
 }
 
-.card-body {
-    background-color: rgb(23, 163, 184) !important;
+#nosotros i {
+    margin-top: 20px;
 }
 
-.card {
-    height: 450px;
-    width: 20rem;
-    
+#formulario {
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
+/*Estilos CSS para las líneas separadoras <hr> presentes en cada sección*/
+hr {
+    opacity: 1;
+    height: 2px;
+    color: rgb(23, 163, 184);
+}
+/*Color de contenedor de los íconos en la sección de quienes somos*/
 .fondoicon {
     background-color: rgb(23, 163, 184);
     height: 40px;
 }
 
-#nosotros i {
-    margin-top: 20px;
+/*Color de fondo para las cards de Bootstrap de la sección destacados*/
+.card-body {
+    background-color: rgb(23, 163, 184) !important;
 }
 
+/*Definición de altura y anchura de las cards*/
+.card {
+    height: 450px;
+    width: 20rem;    
+}
+
+/*Color de fondo del footer y color de los links (íconos) del footer*/
 footer {
     background-color: rgb(23, 163, 184) ;
 }

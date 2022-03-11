@@ -5,20 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jorge Oyarzo">
     <title>Viajes Chile</title>
+    <!-- link de CDN de Bootstrap version 5.1.3 -->
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap"
         rel="stylesheet">
+    <!-- link a archivo CSS propio -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <!-- link a script de Font Awesome -->
+    <script src="https://kit.fontawesome.com/493f30a6ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!--alt+shift+A  -->
+
+    <!--Barra de navegción con estilos de Bootstrap (navbar) -->
 
     <head>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,6 +45,9 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Carrusel con 3 imágenes, con un ancho del 100% -->
+
         <div id="carrusel" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -61,6 +70,9 @@
             </button>
         </div>
     </head>
+
+    <!-- Sección de texto e íconos. Desaparece en tamaños xs y sm. Íconos de font awesome. Uso de clases Bootstrap para implementar sistema de grilla. -->
+
     <section id="nosotros" class="d-none d-md-block mb-5">
         <div class="container">
             <h3 class="text-center">¿Quiénes somos?</h3>
@@ -80,7 +92,8 @@
                         tenetur officiis incidunt, pariatur iusto tempore voluptates fuga, voluptate est corporis
                         repellendus veniam asperiores nulla mollitia quas at! Iure aut beatae incidunt culpa id,
                         praesentium animi. Perspiciatis maiores voluptate quae necessitatibus minus rerum dolore eum?
-                        Temporibus porro sit quis? At expedita fuga modi.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci saepe explicabo consectetur
+                        Temporibus porro sit quis? At expedita fuga modi.Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Adipisci saepe explicabo consectetur
                         excepturi nisi nostrum facilis autem ducimus provident maxime fugiat est necessitatibus
                         voluptatum, tenetur praesentium? Quam, consequuntur nisi provident totam impedit molestiae ut
                         doloribus adipisci facilis beatae consequatur nostrum repellendus voluptatem laudantium eligendi
@@ -99,7 +112,8 @@
                         tenetur officiis incidunt, pariatur iusto tempore voluptates fuga, voluptate est corporis
                         repellendus veniam asperiores nulla mollitia quas at! Iure aut beatae incidunt culpa id,
                         praesentium animi. Perspiciatis maiores voluptate quae necessitatibus minus rerum dolore eum?
-                        Temporibus porro sit quis? At expedita fuga modi.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci saepe explicabo consectetur
+                        Temporibus porro sit quis? At expedita fuga modi.Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Adipisci saepe explicabo consectetur
                         excepturi nisi nostrum facilis autem ducimus provident maxime fugiat est necessitatibus
                         voluptatum, tenetur praesentium? Quam, consequuntur nisi provident totam impedit molestiae ut
                         doloribus adipisci facilis beatae consequatur nostrum repellendus voluptatem laudantium eligendi
@@ -108,10 +122,10 @@
                         repellendus veniam asperiores nulla mollitia quas at! Iure aut beatae incidunt culpa id,
                         praesentium animi. Perspiciatis maiores voluptate quae necessitatibus minus rerum dolore eum?
                         Temporibus porro sit quis? At expedita fuga modi.</p>
-                        <div class="fondoicon text-center mt-3">
-                            <i class="fa-solid fa-mountain fa-2xl"></i>
-                        </div>
+                    <div class="fondoicon text-center mt-3">
+                        <i class="fa-solid fa-mountain fa-2xl"></i>
                     </div>
+                </div>
                 <div class="col">
                     <div class="fondoicon text-center mb-3">
                         <i class="fa-solid fa-route fa-2xl"></i>
@@ -124,7 +138,8 @@
                         tenetur officiis incidunt, pariatur iusto tempore voluptates fuga, voluptate est corporis
                         repellendus veniam asperiores nulla mollitia quas at! Iure aut beatae incidunt culpa id,
                         praesentium animi. Perspiciatis maiores voluptate quae necessitatibus minus rerum dolore eum?
-                        Temporibus porro sit quis? At expedita fuga modi.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci saepe explicabo consectetur
+                        Temporibus porro sit quis? At expedita fuga modi.Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Adipisci saepe explicabo consectetur
                         excepturi nisi nostrum facilis autem ducimus provident maxime fugiat est necessitatibus
                         voluptatum, tenetur praesentium? Quam, consequuntur nisi provident totam impedit molestiae ut
                         doloribus adipisci facilis beatae consequatur nostrum repellendus voluptatem laudantium eligendi
@@ -137,6 +152,9 @@
             </div>
         </div>
     </section>
+
+    <!-- Sección destacados, incluye 4 cards con estilos de Bootstrap y distribuidas en sistema de grilla responsivo -->
+
     <section id="destacados" class="mt-5 pt-5">
         <div class="container">
             <h3 class="text-center">Destacados</h3>
@@ -149,7 +167,9 @@
                         <img src="assets/img/card1.jpg" height="200" class="card-img-top" alt="destacado1">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Consectetur adipisicing elit</h5>
-                            <p class="card-text">Veritatis repudiandae maiores tempore provident ratione accusantium itaque quod cupiditate architecto nulla animi beatae, quibusdam qui facilis recusandae.</p>
+                            <p class="card-text">Veritatis repudiandae maiores tempore provident ratione accusantium
+                                itaque quod cupiditate architecto nulla animi beatae, quibusdam qui facilis recusandae.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -158,7 +178,8 @@
                         <img src="assets/img/card2.jpg" height="200" class="card-img-top" alt="card2">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Lorem ipsum dolor sit amet.</h5>
-                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate at delectus fugit explicabo quisquam magni tempore </p>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate at
+                                delectus fugit explicabo quisquam magni tempore </p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +188,9 @@
                         <img src="assets/img/card3.jpg" height="200" class="card-img-top" alt="card3">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Repellat necessitatibus qui magnam?</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione delectus blanditiis ut dolore aliquid similique, sapiente doloribus fuga. Praesentium.</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                                delectus blanditiis ut dolore aliquid similique, sapiente doloribus fuga. Praesentium.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -176,25 +199,33 @@
                         <img src="assets/img/card4.jpg" height="200" class="card-img-top" alt="card4">
                         <div class="card-body">
                             <h5 class="card-title mb-3">Nihil temporibus fugit soluta</h5>
-                            <p class="card-text">adipisicing elit. Ratione delectus blanditiis ut dolore aliquid similique, sapiente doloribus fuga. Praesentium, ad! Nihil temporibus fugit soluta sequi maiores.</p>
+                            <p class="card-text">adipisicing elit. Ratione delectus blanditiis ut dolore aliquid
+                                similique, sapiente doloribus fuga. Praesentium, ad! Nihil temporibus fugit soluta sequi
+                                maiores.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Sección de contacto, incluye formulario de Typeform -->
+
     <section class="mt-5 pt-5" id="contacto">
         <div class="container mt-5">
             <h3 class="text-center mt-5 pt-5">Contacto</h3>
             <hr>
         </div>
-
-        <div id="formulario" data-tf-widget="dTb9vXH8"
-            data-tf-iframe-props="title=Formulario contacto Viajes Chile" data-tf-medium="snippet"
-            style="width:100%;height:700px;"></div>
-        <script src="//embed.typeform.com/next/embed.js"></script>
+        <div id="formulario">
+            <div data-tf-widget="dTb9vXH8" data-tf-iframe-props="title=Formulario contacto Viajes Chile"
+                data-tf-medium="snippet" style="width:100%;height:700px;"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
 
     </section>
+
+    <!-- Footer organizado en 2 columnas de sistema de grilla Bootstrap. Íconos de Font awesome con link a redes sociales. Tooltip implementado sobre íconos -->
+
     <footer>
         <div class="container-fluid">
             <div class="container">
@@ -203,31 +234,35 @@
                         <span class="h2 fw-bold">VIAJES CHILE</span>
                     </div>
                     <div class="col text-end">
-                        <a href="www.github.com/viajes.chile"><i class="fa-brands fa-github-square fa-3x"  data-toggle="tooltip"
-                            data-placement="top" title="Github"></i></a> <a href="www.linkedin.com/viajes.chile"><i
-                            class="fa-brands fa-linkedin fa-3x ms-3" data-toggle="tooltip"
-                            data-placement="top" title="LinkedIn"></i></a><a href="www.twitter.com/viajes.chile"><i
-                            class="fa-brands fa-twitter-square fa-3x ms-3" data-toggle="tooltip"
-                            data-placement="top" title="Twitter"></i></a><a href="www.facebook.com/viajes.chile"><i
-                            class="fa-brands fa-facebook-square fa-3x ms-3" data-toggle="tooltip"
-                            data-placement="top" title="Facebook"></i></a>
+                        <a href="www.github.com/viajes.chile"><i class="fa-brands fa-github-square fa-3x"
+                                data-toggle="tooltip" data-placement="top" title="Github"></i></a> <a
+                            href="www.linkedin.com/viajes.chile"><i class="fa-brands fa-linkedin fa-3x ms-3"
+                                data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a><a
+                            href="www.twitter.com/viajes.chile"><i class="fa-brands fa-twitter-square fa-3x ms-3"
+                                data-toggle="tooltip" data-placement="top" title="Twitter"></i></a><a
+                            href="www.facebook.com/viajes.chile"><i class="fa-brands fa-facebook-square fa-3x ms-3"
+                                data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>
+    <!-- Final del contenido -->
 
-
-
+    <!-- Inicio de sección de links a scripts. Posicionados al final de <body> para no ralentizar la carga de la página -->
+    <!-- link a script de Jquery version 3.6.0 -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <!-- JavaScript Bundle with Popper -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/493f30a6ae.js" crossorigin="anonymous"></script>
+
+    <!-- link a script.js propio -->
+
     <script src="assets/js/script.js"></script>
 </body>
 
