@@ -4,6 +4,13 @@ body {
     background-color: black;
 }
 
+.navbar {
+    background: transparent !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
 .navbar-brand {
     margin-left: 7%;
 }
@@ -23,7 +30,7 @@ body {
 
 .card {
     height: 450px;
-    width: 17rem;
+    width: 20rem;
     
 }
 
