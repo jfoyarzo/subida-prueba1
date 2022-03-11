@@ -8,7 +8,7 @@ body {
     background: transparent !important;
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 99;
 }
 
 .navbar-brand {
